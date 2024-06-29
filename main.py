@@ -232,7 +232,7 @@ try:
     # opção 1
     with carregar_dados:
         uploaded_file = upload()
-        df = load_data(uploaded_file, SHEET_NAME)
+        df = pd.read_excel(uploaded_file, SHEET_NAME)
 
         st.dataframe(df)
 
