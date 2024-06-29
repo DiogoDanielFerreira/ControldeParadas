@@ -260,5 +260,7 @@ try:
     with incompatibilidade:
         pass
 
-except:
+
+except Exception as e:
     st.write("Faça upload de um arquivo com nome de: ControldeParadas")
+    st.write(e)
