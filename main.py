@@ -210,9 +210,6 @@ def main():
     return df_filtered, df_engeman, qtd, qtde
 
 
-uploaded_file
-
-
 def upload():
     st.title("Upload de Arquivo")
 
