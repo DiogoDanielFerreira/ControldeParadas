@@ -232,8 +232,6 @@ try:
     # opção 1
     with carregar_dados:
         uploaded_file = upload()
-        df = pd.read_excel(uploaded_file, SHEET_NAME)
-        st.write(df.Name)
 
     # opção 2
     with graficos:
