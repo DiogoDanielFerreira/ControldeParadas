@@ -214,7 +214,7 @@ def upload():
     st.title("Upload de Arquivo")
 
     # Permite o usuário fazer upload de um arquivo
-    uploaded_file = st.file_uploader("Escolha um arquivo CSV", type="xlsx")
+    uploaded_file = st.file_uploader("Escolha um arquivo EXCEL", type="xlsx")
 
     if uploaded_file is not None:
         # Carregar o arquivo para um DataFrame do pandas
