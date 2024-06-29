@@ -6,7 +6,6 @@ import plotly.express as px
 # Constantes
 SHEET_NAME = "Paradas"
 SHEET_NAME1 = "Solicitações_Engeman"
-LOGO_IMAGE = "Imagens/baixados.png"
 uploaded_file = ""
 
 # mostrar em tela cheia
@@ -170,7 +169,6 @@ def main():
     df_engeman = prepara_data_engeman(df_engeman)
 
     # Mostrar logo na sidebar
-    st.sidebar.image(LOGO_IMAGE)
     st.sidebar.write("By Diogo Daniel")
 
     # Aplicar filtro
